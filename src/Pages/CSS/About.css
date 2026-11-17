@@ -1,0 +1,226 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.about-page {
+  width: 100%;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.about-banner {
+  width: 100%;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(8, 63, 63, 0.82), rgba(8, 63, 63, 0.82)),
+    url('/images/about-banner.jpg') center/cover no-repeat;
+  padding: 50px 20px;
+}
+
+.about-banner-content {
+  max-width: 750px;
+  color: #fff;
+}
+
+.about-banner-content p,
+.about-subtitle,
+.why-heading p,
+.about-bottom p {
+  color: #d4af6a;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.about-banner-content h1 {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  margin: 18px 0;
+}
+
+.about-banner-content span {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.about-story {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 8%;
+}
+
+.about-story-image {
+  width: 70%;
+  height: 430px;
+}
+
+.about-story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.about-story-content {
+  width: 50%;
+}
+
+.about-story-content h2 {
+  color: #083f3f;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  margin: 15px 0 20px;
+}
+
+.about-story-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 15px;
+}
+
+.about-story-content h3 {
+  color: #b58a45;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.about-mission {
+  display: flex;
+  gap: 30px;
+  padding: 65px 8%;
+  background: #f8f6f1;
+}
+
+.mission-card {
+  width: 50%;
+  text-align: center;
+  padding: 40px 30px;
+  background: #fff;
+  border: 1px solid #eee5d6;
+  border-radius: 8px;
+}
+
+.mission-icon {
+  color: #b58a45;
+  font-size: 42px;
+}
+
+.mission-card h2 {
+  color: #083f3f;
+  font-family: Georgia, serif;
+  margin: 15px 0;
+}
+
+.mission-card p {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.why-jewelzip {
+  padding: 75px 8%;
+  text-align: center;
+}
+
+.why-heading h2 {
+  color: #083f3f;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  margin: 12px 0 40px;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.why-card {
+  padding: 30px 20px;
+  border: 1px solid #eee5d6;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.why-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.why-card span {
+  color: #b58a45;
+  font-size: 38px;
+}
+
+.why-card h3 {
+  color: #083f3f;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  margin: 15px 0;
+}
+
+.why-card p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+@media (max-width: 900px) {
+  .why-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-story {
+    gap: 30px;
+    padding: 60px 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-banner-content h1 {
+    font-size: 34px;
+  }
+
+  .about-story {
+    flex-direction: column;
+    padding: 45px 6%;
+  }
+
+  .about-story-image,
+  .about-story-content {
+    width: 100%;
+  }
+
+  .about-story-image {
+    height: 300px;
+  }
+
+  .about-story-content h2 {
+    font-size: 29px;
+  }
+
+  .about-mission {
+    flex-direction: column;
+    padding: 45px 6%;
+  }
+
+  .mission-card {
+    width: 100%;
+  }
+
+  .why-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-bottom h2 {
+    font-size: 29px;
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Rings",
+    "image": "/images/r1.jpg",
+    "description": "Beautiful rings for every special moment"
+  },
+  {
+    "id": 2,
+    "name": "Earrings",
+    "image": "/images/e1.jpg",
+    "description": "Elegant earrings to complete your look"
+  },
+  {
+    "id": 3,
+    "name": "Necklaces & Pendants",
+    "image": "/images/n1.jpg",
+    "description": "Discover timeless necklace designs"
+  },
+  {
+    "id": 4,
+    "name": "Bracelets",
+    "image": "/images/b1.jpg",
+    "description": "Stylish bracelets for everyday elegance"
+  },
+  {
+    "id": 5,
+    "name": "Anklets",
+    "image": "/images/a7.jpg",
+    "description": "Add charm to every step"
+  }
+]
